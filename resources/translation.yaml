@@ -1,0 +1,8 @@
+dict_message:
+  property_added: The property has been added.
+
+translation_common:
+  sign_out: Sign Out
+  add_properties: Add Property
+  add_tasks: Add Task
+  multi_unit_added: Multiple Units Added
