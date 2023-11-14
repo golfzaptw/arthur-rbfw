@@ -17,11 +17,11 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        pip install robotframework
+        pip install -r requirements.txt
 
     - name: Run Robot Framework Tests
       run: |
-        robot --report NONE --outputdir results --logtitle "Test Log" testcases/
+        robot --report NONE --outputdir results testcases/
 
     - name: Upload Robot Framework Results
       uses: actions/upload-artifact@v2
